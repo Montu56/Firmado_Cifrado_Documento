@@ -1,0 +1,11 @@
+
+EXPEDIENTE MEDICO - DOCUMENTO DE PRUEBA
+
+Paciente: Juan Perez
+Edad: 35 anos
+Diagnostico: Hipertension arterial
+Tratamiento: Losartan 50 mg
+Medico responsable: Dra. Alicia
+
+Este documento sera firmado digitalmente
+y posteriormente cifrado mediante AES-CBC.

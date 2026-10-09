@@ -1,0 +1,15 @@
+
+# Claves criptograficas
+clave_privada.pem
+clave_publica.pem
+firma_documento.bin
+*.key
+
+# Archivos sensibles
+.env
+
+# Archivos temporales
+__pycache__/
+*.pyc
+venv/
+.venv/
