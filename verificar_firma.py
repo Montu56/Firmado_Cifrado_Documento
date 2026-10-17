@@ -4,7 +4,7 @@ from cryptography.hazmat.primitives.asymmetric import ec
 from cryptography.exceptions import InvalidSignature
 
 # Leer el documento original
-with open("documento.txt", "rb") as archivo:
+with open("documento_descifrado.txt", "rb") as archivo:
     documento = archivo.read()
 
 # Leer la firma digital

@@ -1,15 +1,21 @@
-
-# Claves criptograficas
-clave_privada.pem
-clave_publica.pem
-firma_documento.bin
-*.key
-
-# Archivos sensibles
-.env
-
-# Archivos temporales
-__pycache__/
-*.pyc
+# Entornos virtuales y archivos temporales
 venv/
 .venv/
+__pycache__/
+*.pyc
+.env
+
+# Claves privadas y llaves AES
+clave_privada.pem
+rsa_privada.pem
+*.key
+
+# Archivos generados durante las pruebas
+firma_documento.bin
+clave_aes_envuelta.bin
+documento_cifrado.bin
+documento_descifrado.txt
+
+# Respaldos
+*.bak
+Respaldo_RSA_Anterior/
